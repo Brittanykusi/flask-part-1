@@ -12,7 +12,7 @@ def about():
 
 @app.route('/contact')
 def contact():
-    return 'This is the "contact" page!'
+    return 'This is the "Contact" page!'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
